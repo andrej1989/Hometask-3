@@ -18,8 +18,8 @@
   list-style: none; 
   display: block;
   clear: right; 
-  background-color: #4b4a4a;
-  height: 40px;
+  background: linear-gradient(to top, #444343, #5e5e5e);
+  height: 55px;
 /*  text-shadow: black 0.1em 0.1em 0.2em;*/
 }
 
@@ -33,12 +33,14 @@ nav ul a li {
   color: #ffffff; 
   font-size: 16px; 
   text-align: center;
-  padding: 10px 0px 0px 20px;
+  padding: 15px 0px 0px 20px;
 }
 
 nav ul li:hover {
   color: #ffffff;
   background: #3c3c3c;
+  outline: 1px solid #ffffff;
+  transition: 0.3s;
 }
 #side_bar {
  list-style: none; /* Отключение отображения маркеров. */
@@ -63,6 +65,8 @@ nav ul li:hover {
 }
 #side_bar li a:hover {
  font-weight: bold;
+ background-color: #f9f9f9;
+ transition: 0.3s;
 }
 .bike {
   float: right;
@@ -71,9 +75,10 @@ nav ul li:hover {
 }
 p {
 	margin-top: 30px;
-	padding: 70px 50px 0px 360px;
+	padding: 70px 50px 0px 390px;
   line-height: 1.5;
   font-size: 13.333px;
+  text-align: left;
 }
 .footer_menu ul li { 
 	display: inline-block; 
@@ -92,10 +97,15 @@ p {
   padding: 15px 94px 0px 25px;
   color: black;
 }
+
+.footer_menu li a:hover {
+  text-decoration: underline;
+}
 span {
 	margin-left: 840px;
 	width: 180px;
 	float: right;
 	font-family: arial;	
-  padding: 15px 0px 0px 45px;
+  padding: 15px 0px 0px 60px;
+  text-align: right;
 }
